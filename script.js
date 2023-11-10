@@ -4,10 +4,8 @@ function isSameType(value1, value2) {
 	let b =typeof(value2);
 	if(value1==NaN && value2==NaN){
 		return true;
-	}else{
-		return false;
 	}
-	if(a===b){
+	else if(a===b){
 		return true;
 	}else{
 		return false;
