@@ -4,6 +4,8 @@ function isSameType(value1, value2) {
 	let b =typeof(value2);
 	if(value1==NaN && value2==NaN){
 		return true;
+	}else{
+		return false;
 	}
 	if(a===b){
 		return true;
@@ -11,6 +13,7 @@ function isSameType(value1, value2) {
 		return false;
 	}
 }
+
 
 // do not change the code below.
 let value1 = prompt("Enter Start of the Range.");
